@@ -2,7 +2,7 @@
 This Project was created on 4 January, 2020.
 
 ### Project Title
-Bikeshare
+Bikeshare Project
 
 ### Description
 Analizes statistics and review raw data with Python from bikeshare in three US cities: Chicago, New York City and Washington.
