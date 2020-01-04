@@ -104,7 +104,9 @@ def time_stats(df):
         str(df['start_hour'].mode().values[0])
     ))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took {} seconds.".format(
+        (time.time() - start_time)
+    ))
     print('-'*40)
 
 
@@ -130,7 +132,9 @@ def station_stats(df):
         df['routes'].mode().values[0]
     ))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took {} seconds.".format(
+        (time.time() - start_time)
+    ))
     print('-'*40)
 
 
