@@ -199,12 +199,12 @@ def display_data(df):
     Display contents of the CSV file to the display as requested by the user.
     """
 
-    start_loc = 0
-    end_loc = 5
-
     display_active = input("\nDo you want to see raw data?: Enter yes or no.\n").lower()
 
     if display_active == 'yes':
+        start_loc = 0
+        end_loc = 5
+
         while end_loc <= df.shape[0] - 1:
 
             print(df.iloc[start_loc:end_loc,:])
